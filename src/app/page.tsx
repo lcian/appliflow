@@ -241,21 +241,13 @@ function CreateApplicationDialog({
                                 <Label htmlFor="title" className="text-right">
                                     Job Title
                                 </Label>
-                                <Input
-                                    name="title"
-                                    placeholder="Software Engineer"
-                                    className="col-span-3"
-                                />
+                                <Input name="title" className="col-span-3" />
                             </div>
                             <div className="grid grid-cols-4 items-center gap-4">
                                 <Label htmlFor="company" className="text-right">
                                     Company
                                 </Label>
-                                <Input
-                                    name="company"
-                                    placeholder="Meta"
-                                    className="col-span-3"
-                                />
+                                <Input name="company" className="col-span-3" />
                             </div>
                             <div className="grid grid-cols-4 items-center gap-4">
                                 <Label
@@ -264,11 +256,7 @@ function CreateApplicationDialog({
                                 >
                                     Location
                                 </Label>
-                                <Input
-                                    name="location"
-                                    placeholder="Remote"
-                                    className="col-span-3"
-                                />
+                                <Input name="location" className="col-span-3" />
                             </div>
                             <div className="grid grid-cols-4 items-center gap-4">
                                 <Label htmlFor="status" className="text-right">
