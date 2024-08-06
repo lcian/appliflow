@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Appliflow",
+    title: "appliflow",
     description: "Track and visualize your job applications",
 };
 

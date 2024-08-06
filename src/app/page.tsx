@@ -81,6 +81,8 @@ import React, {
 import { Chart } from "react-google-charts";
 import { useForm } from "react-hook-form";
 
+import icon from "./icon.svg";
+
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-sans",
@@ -680,12 +682,17 @@ function LoggedInHome({ user }: { user: string }) {
     return (
         <StatusContextProvider>
             <div className="w-screen">
-                <header className="absolute sticky top-5 z-30 h-14 items-center gap-4 border-b bg-background px-4">
-                    <div className="grid grid-cols-2 gap-4">
-                        <div className="columns-1 flex flex-row justify-start container mx-auto">
+                <header className="sticky top-0 z-30 h-20 flex flex-row items-center gap-4 border-b bg-background px-4">
+                    <div className="grid grid-cols-2 gap-4 w-full">
+                        <div className="columns flex flex-row items-center container mx-auto gap-4">
+                            <Image
+                                alt="sankey-icon"
+                                src={icon}
+                                className="h-16 w-16"
+                            />
                             <h1 className="text-4xl font-bold">appliflow</h1>
                         </div>
-                        <div className="columns-1 flex flex-row justify-end container mx-auto gap-4">
+                        <div className="columns-1 items-center flex flex-row justify-end container mx-auto gap-4">
                             <ThemeSelectionDropdown />
                             <UserDropdown user={user} />
                         </div>
@@ -713,7 +720,12 @@ function Hero() {
                 <div className="relative z-10">
                     <div className="container py-10 lg:py-16">
                         <div className="max-w-2xl text-center mx-auto">
-                            <div className="mt-5 max-w-2xl">
+                            <div className="mt-5 max-w-2xl flex flex-row items-center justify-center">
+                                <Image
+                                    alt="sankey-icon"
+                                    src={icon}
+                                    className="h-16 w-16 mr-4"
+                                />
                                 <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                                     appliflow
                                 </h1>
