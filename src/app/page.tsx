@@ -422,7 +422,7 @@ function SankeyChart({
                         node: {
                             label: {
                                 fontName: inter.style.fontFamily,
-                                fontSize: 20,
+                                fontSize: 18,
                             },
                             labelPadding: 30,
                         },
@@ -448,7 +448,7 @@ function SankeyDialog({
                     Sankey Chart
                 </Button>
             </DialogTrigger>
-            <DialogContent className="min-w-[76%] min-h-[50%]">
+            <DialogContent className="min-w-[76%] min-h-[70%]">
                 <SankeyChart applications={applications} />
             </DialogContent>
         </Dialog>
