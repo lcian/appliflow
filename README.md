@@ -2,6 +2,8 @@
 
 [appliflow](https://appliflow.vercel.app) is a web app that allows users to track and visualize the progress of their job applications.
 
+https://github.com/user-attachments/assets/f4a7aa90-2b0a-41e3-a884-297149b2c258
+
 Stack: Node.js, TypeScript, React, Next.js, NextAuth.js, Tailwind CSS, Prisma, Postgres, Vercel.
 
 # Development
